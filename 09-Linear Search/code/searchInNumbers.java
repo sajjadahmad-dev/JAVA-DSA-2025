@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class searchInNumbers {
     public static void main(String[] args) {
     
@@ -21,6 +19,4 @@ public class searchInNumbers {
         }
         return -1;
     }
-
-    static void 
 }
