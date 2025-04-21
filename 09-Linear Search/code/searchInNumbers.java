@@ -1,5 +1,8 @@
+import java.util.Scanner;
+
 public class searchInNumbers {
     public static void main(String[] args) {
+    
         int[] nums = {77, 34, 3, 4, 5, 33, 35, 35, 5};
         int target = 4;
         int ans = linearSearch(nums, target);
@@ -18,4 +21,6 @@ public class searchInNumbers {
         }
         return -1;
     }
+
+    static void 
 }
