@@ -6,14 +6,14 @@ public class EvenDigit {
 
     // Function to find how many numbers have even digits
     public static int findNumbers(int[] nums) {
-        int ans = 0;
+        int answer = 0;
         for (int num : nums) {
             int digits = countDigits(num);  // Count the digits
             if (digits % 2 == 0) {
                 ans++;
             }
         }
-        return ans;
+        return answer;
     }
 
     // Function to count digits in a number
