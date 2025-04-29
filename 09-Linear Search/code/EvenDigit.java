@@ -10,7 +10,7 @@ public class EvenDigit {
         for (int num : nums) {
             int digits = countDigits(num);  // Count the digits
             if (digits % 2 == 0) {
-                answers++;
+                answers++;fd
             }
         }
         return answers;
