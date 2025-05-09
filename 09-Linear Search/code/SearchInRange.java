@@ -10,7 +10,7 @@ public class SearchInRange {
             return -1;
         }
         for (int index = start; index < end; index++) {
-            int element = arr[index];
+            int element = arr[index];hiu
             if (element == target) {
                 return index;
             }
