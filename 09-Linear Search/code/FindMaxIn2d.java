@@ -13,7 +13,7 @@ public class FindMaxIn2d {
         System.out.println(Integer.MAX_VALUE);
     }
 
-    static int Max(int[][] arr) {
+    static int Max(int[][] arr) {khk
         int max= Integer.MIN_VALUE;
         for (int row = 0; row < arr.length; row++) {
             for (int col = 0; col < arr[row].length; col++) {
